@@ -142,8 +142,8 @@ The practical takeaway: published prompt-engineering wins from the GPT-3.5/4 era
 
 ## About
 
-Built by **Samarth Saxena** — software engineer with an interest in LLM systems, evaluation, and the messy infrastructure between a model checkpoint and a working product.
+Built by **Samarth Saxena** — AI/ML Engineer with an interest in LLM systems, evaluation, and the messy infrastructure between a model checkpoint and a working product.
 
 [Portfolio](https://samsaxena.vercel.app/) · [GitHub](https://github.com/samarth1337) · [LinkedIn](https://www.linkedin.com/in/samarth-saxena-/)
 
-Released under the [MIT License](LICENSE). Issues and PRs welcome.
+Released under the [MIT License](LICENSE). Issues and PRs welcome. Some parts of this README were written by Gemini (Quickstart, What's inside).
