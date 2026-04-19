@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/hero.svg" alt="LLM Systems & Evals — pipeline overview" width="100%"/>
+</p>
+
 # LLM Systems & Evals — Mistral-7b on Ollama
 
 > An end-to-end pipeline for serving, evaluating, stress-testing, guardrailing, and improving a locally-hosted open-weights LLM.
