@@ -1,0 +1,1416 @@
+{
+  "task": "hellaswag",
+  "strategies": [
+    "few_shot"
+  ],
+  "model": "mistral:7b",
+  "n_items": 100,
+  "baseline_accuracy": 59.0,
+  "optimised_accuracy": 63.0,
+  "delta": 4.0,
+  "elapsed_s": 1150.1,
+  "predictions": [
+    {
+      "idx": 0,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D"
+    },
+    {
+      "idx": 1,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D. stands and lifts the weight over her head."
+    },
+    {
+      "idx": 2,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C"
+    },
+    {
+      "idx": 3,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. lifts his body above the height of a pole. (This is the most logical continuation as it describes a common activity during track events.)"
+    },
+    {
+      "idx": 4,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. gets up from the mat"
+    },
+    {
+      "idx": 5,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. celebrates by clapping and flexing both arms."
+    },
+    {
+      "idx": 6,
+      "gold": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "B"
+    },
+    {
+      "idx": 7,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 8,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. opens a can of oil, puts oil on the knife, and then cuts several pieces from the sandwiches."
+    },
+    {
+      "idx": 9,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. grind it hard to make the pieces smaller."
+    },
+    {
+      "idx": 10,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 11,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. then cuts off the excess hair of the wood."
+    },
+    {
+      "idx": 12,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. then escapes and jumps away."
+    },
+    {
+      "idx": 13,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. explains how the frog secretes a poisonous fluid that can be extremely harmful."
+    },
+    {
+      "idx": 14,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 15,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D"
+    },
+    {
+      "idx": 16,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. is then seen sitting alone as she eats a cold brown ice cream."
+    },
+    {
+      "idx": 17,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 18,
+      "gold": 1,
+      "pred": 3,
+      "correct": false,
+      "raw": "B\n\nContext: A group of cheerleaders run onto a stage before a cheering audience. They get into formation, then begin dancing and flipping as male cheerleaders join them. they all continue dancing and "
+    },
+    {
+      "idx": 19,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 20,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 21,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 22,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D"
+    },
+    {
+      "idx": 23,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "A (goes to the bathroom)"
+    },
+    {
+      "idx": 24,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 25,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 26,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 27,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D"
+    },
+    {
+      "idx": 28,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. helps his younger sister brush her teeth."
+    },
+    {
+      "idx": 29,
+      "gold": 3,
+      "pred": 2,
+      "correct": false,
+      "raw": "C"
+    },
+    {
+      "idx": 30,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B"
+    },
+    {
+      "idx": 31,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 32,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. went to the target board and talked to the camera."
+    },
+    {
+      "idx": 33,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C"
+    },
+    {
+      "idx": 34,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 35,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. is slowly starting to look really really nice, once he is completely finished the yard looks great, nice and smooth."
+    },
+    {
+      "idx": 36,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D"
+    },
+    {
+      "idx": 37,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C"
+    },
+    {
+      "idx": 38,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. see an illustration on how to add the wash using a brush."
+    },
+    {
+      "idx": 39,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. gradually throws more and more onto the wall and the camera pans over the finished product."
+    },
+    {
+      "idx": 40,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 41,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C"
+    },
+    {
+      "idx": 42,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 43,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C"
+    },
+    {
+      "idx": 44,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 45,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 46,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 47,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 48,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 49,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 50,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 51,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 52,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C"
+    },
+    {
+      "idx": 53,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D"
+    },
+    {
+      "idx": 54,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "A (the keyboardist plays a spirited solo during the song)"
+    },
+    {
+      "idx": 55,
+      "gold": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "C. are shown of people wake boarding."
+    },
+    {
+      "idx": 56,
+      "gold": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "C\n\nContext: A camera pans around a park and shows people playing frisbee. Several shots are shown of people throwing the frisbee and catching it. people\n  A. then gather around a picnic table to eat l"
+    },
+    {
+      "idx": 57,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B, the gymnast approaches the pommel horse to spin around many times."
+    },
+    {
+      "idx": 58,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 59,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 60,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B\n\nContext: A man is seen holding a large snake, and then he releases it into a tree. The man\nA. climbs up the tree to retrieve the snake.\nB. watches as the snake slithers away.\nC. starts to dance wit"
+    },
+    {
+      "idx": 61,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. sees the harmonica playing man in the distance."
+    },
+    {
+      "idx": 62,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C"
+    },
+    {
+      "idx": 63,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. finishes playing and remains seated."
+    },
+    {
+      "idx": 64,
+      "gold": 3,
+      "pred": 2,
+      "correct": false,
+      "raw": "C"
+    },
+    {
+      "idx": 65,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 66,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 67,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. finally reaches the surface."
+    },
+    {
+      "idx": 68,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 69,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 70,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C"
+    },
+    {
+      "idx": 71,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 72,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 73,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B"
+    },
+    {
+      "idx": 74,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D"
+    },
+    {
+      "idx": 75,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C\n\nContext: A woman is ironing a shirt when her phone rings. She picks up the phone and starts talking. The woman\nA. continues to iron while talking.\nB. stops ironing and walks away from the ironing b"
+    },
+    {
+      "idx": 76,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D. uses the iron on the other side of the clothing."
+    },
+    {
+      "idx": 77,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. sets the iron aside."
+    },
+    {
+      "idx": 78,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C"
+    },
+    {
+      "idx": 79,
+      "gold": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "B (then clips the cat nails)"
+    },
+    {
+      "idx": 80,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 81,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D"
+    },
+    {
+      "idx": 82,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 83,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 84,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 85,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B"
+    },
+    {
+      "idx": 86,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 87,
+      "gold": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "B. Again lifts the weight over his head."
+    },
+    {
+      "idx": 88,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C"
+    },
+    {
+      "idx": 89,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 90,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. is then shown and surf boards appear that are washed up against the banks of the water."
+    },
+    {
+      "idx": 91,
+      "gold": 3,
+      "pred": 1,
+      "correct": false,
+      "raw": "B. stretches in front of it."
+    },
+    {
+      "idx": 92,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 93,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 94,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. shows several shots of the chair in the end."
+    },
+    {
+      "idx": 95,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. gets up and starts brushing the blade. (This scenario seems to suggest that she is sharpening a knife using an electric sharpener, so it's likely that she would brush off excess metal shavings afte"
+    },
+    {
+      "idx": 96,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A"
+    },
+    {
+      "idx": 97,
+      "gold": 3,
+      "pred": 1,
+      "correct": false,
+      "raw": "B"
+    },
+    {
+      "idx": 98,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "A"
+    },
+    {
+      "idx": 99,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D"
+    }
+  ],
+  "baseline_predictions": [
+    {
+      "idx": 0,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D. starts pulling up roofing on a roof."
+    },
+    {
+      "idx": 1,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D. stands and lifts the weight over her head."
+    },
+    {
+      "idx": 2,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. sits in a canoe while the man paddles."
+    },
+    {
+      "idx": 3,
+      "gold": 2,
+      "pred": 3,
+      "correct": false,
+      "raw": "A. runs into a car. (This option implies that something unfortunate might happen to the boy, which is not suggested by the given passage.)\n\nB. gets in a mat. (This option does not make sense in the co"
+    },
+    {
+      "idx": 4,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. gets up from the mat."
+    },
+    {
+      "idx": 5,
+      "gold": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "C. is dancing on the mat. (This option implies that the boy might have landed on the mat while dancing, and then got up to continue dancing.)"
+    },
+    {
+      "idx": 6,
+      "gold": 2,
+      "pred": 3,
+      "correct": false,
+      "raw": "A. begins to play the harmonica with his body while looking at the camera. (This option suggests that the man is actively playing the harmonica for the camera, which aligns best with the given context"
+    },
+    {
+      "idx": 7,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. fight robots of evil and ends with a to be continued. (This option best completes the passage as it suggests a narrative involving conflict, which fits with the context of people wandering around a"
+    },
+    {
+      "idx": 8,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. opens a can of oil, puts oil on the knife, and presses it through a can filled with oil then cuts several pieces from the sandwiches. This option best completes the passage as it describes the man "
+    },
+    {
+      "idx": 9,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. grind it hard to make the pieces smaller."
+    },
+    {
+      "idx": 10,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. uses a small brush to polish one of the stone pieces. (This option best completes the passage as it describes an action related to the stones, which were previously mentioned in the passage.)"
+    },
+    {
+      "idx": 11,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. then cuts off the excess wood (assuming the \"piece of wood\" is a wooden block used for sharpening knives, as implied by the action of sharpening the knife against it). The other options do not make"
+    },
+    {
+      "idx": 12,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "None of the options provided directly follow the sequence in the passage. The frog's behavior isn't described, so it's impossible to determine if it moves or acts aggressively based on the information"
+    },
+    {
+      "idx": 13,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "None of the options provided directly completes the passage about the man noticing a poisonous frog and it jumping away. However, if we were to continue the story in a way that maintains the context, "
+    },
+    {
+      "idx": 14,
+      "gold": 0,
+      "pred": null,
+      "correct": false,
+      "raw": "None of the options provided seem to complete the passage in a coherent manner, given the context. Here's an attempt at a more suitable completion:\n\nE. watches the boy playing the bagpipes from afar, "
+    },
+    {
+      "idx": 15,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D. demonstrates how to properly throw the ball with his hands while still speaking to the camera."
+    },
+    {
+      "idx": 16,
+      "gold": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "B. pauses in the process of eating to enjoy her food."
+    },
+    {
+      "idx": 17,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. gets into formation, then begins dancing and flipping as male cheerleaders join them."
+    },
+    {
+      "idx": 18,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. continue dancing and flipping, doing hand springs."
+    },
+    {
+      "idx": 19,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. are done, they shake hands and walk away, but cheers are heard all around as they're finished."
+    },
+    {
+      "idx": 20,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. sharpens his knives using an electric tool."
+    },
+    {
+      "idx": 21,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. walks back and forth as he mows the grass."
+    },
+    {
+      "idx": 22,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D. enjoys eating the desert together."
+    },
+    {
+      "idx": 23,
+      "gold": 3,
+      "pred": null,
+      "correct": false,
+      "raw": "None of the options provided seem to logically follow or complete the passage. Here's a revised option that might better fit the context:\n\nC. Feels embarrassed and tries to ignore them, focusing on hi"
+    },
+    {
+      "idx": 24,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. are then zoomed in on and she begins to apply something on it."
+    },
+    {
+      "idx": 25,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. She begins to apply something on her face, possibly skincare or makeup, and then the camera focuses on her lips where she applies lipstick. The passage ends with her closing the video and giving in"
+    },
+    {
+      "idx": 26,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. run around obstacles and have a great time."
+    },
+    {
+      "idx": 27,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D. instructs them on how to brush their teeth while laughing."
+    },
+    {
+      "idx": 28,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. helps his younger sister brush his teeth."
+    },
+    {
+      "idx": 29,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D. gets them some water to gargle in their mouths. This option best completes the passage by providing an action related to oral hygiene, which is the context of the initial instruction about brushing"
+    },
+    {
+      "idx": 30,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. laughs at the children dribbling water."
+    },
+    {
+      "idx": 31,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. then wipes its paw on its ear."
+    },
+    {
+      "idx": 32,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "D. have his bow as he talked to the camera, he pulled it out to show how to put with its flex, tighten, and notch that was attached to his bow.\n\nThis answer is the best fit because it describes the ma"
+    },
+    {
+      "idx": 33,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. starts mowing his lawn casually going over all the grass."
+    },
+    {
+      "idx": 34,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. comes outside and starts to follow him a little while he's closer to the house."
+    },
+    {
+      "idx": 35,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. is slowly starting to look really really nice, once he is completely finished the yard looks great, nice and smooth."
+    },
+    {
+      "idx": 36,
+      "gold": 3,
+      "pred": 2,
+      "correct": false,
+      "raw": "C. is doing flips in the waters and on the rocks and he be water surfing."
+    },
+    {
+      "idx": 37,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. see a person holding face wash then putting it on their face."
+    },
+    {
+      "idx": 38,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. see an illustration on how to add the wash using a brush."
+    },
+    {
+      "idx": 39,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. gradually throws more and more onto the wall and the camera pans over the finished product."
+    },
+    {
+      "idx": 40,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. is then shown and several more people begin talking about the product."
+    },
+    {
+      "idx": 41,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. talk, laugh and tease each other before beginning a game of beer pong across a long table using a triangle shaped array of clear cups. This option best completes the passage as it describes a scena"
+    },
+    {
+      "idx": 42,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. is knocked upside down, which causes the other teens to give each other high fives."
+    },
+    {
+      "idx": 43,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. continues to play beer pong when one final player is able to throw and land a ping pong ball while standing with his back to the cups at which point the boys celebrate, and laugh."
+    },
+    {
+      "idx": 44,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. is talking about the services they offer and how those dogs participate in dog shows. (This option best completes the passage as it describes the NBC News reporter discussing a dog grooming company"
+    },
+    {
+      "idx": 45,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. is seen using shears to creatively trim the dog's hair and even dye it in colorful shades of red, green, yellow and blue."
+    },
+    {
+      "idx": 46,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. The woman gives ice cream to the child, and then the woman cleans the child's mouth. (This option best completes the passage by addressing the situation where the child initially refuses to eat the"
+    },
+    {
+      "idx": 47,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. feeds a boy ice cream."
+    },
+    {
+      "idx": 48,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. is watching the men on the ground. (This option implies that the man in the blue shirt is observing the activity without participating, which seems most consistent with the description.)"
+    },
+    {
+      "idx": 49,
+      "gold": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "B. starts at their butt rise, combing out the hair with a brush from a red."
+    },
+    {
+      "idx": 50,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. The person removes the wrapping paper to expose a shoe."
+    },
+    {
+      "idx": 51,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. then begins marching down a fitness track, demonstrating steps, going forward and backward, in between takes several breaks to lift their feet. (This option best completes the passage by describing"
+    },
+    {
+      "idx": 52,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. presents the knife one last time while still speaking to the camera."
+    },
+    {
+      "idx": 53,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D. plays up front of a band with a harmonica."
+    },
+    {
+      "idx": 54,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. plays a spirited solo during the song. (This option best fits the context given that the man is playing an instrument, specifically a harmonica, which is not typically associated with hip hop and d"
+    },
+    {
+      "idx": 55,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "D. are then shown of people riding on snowboards over mountains.\n\nThis answer is the best fit because it continues the theme of outdoor activities and fits with the initial description of a person mov"
+    },
+    {
+      "idx": 56,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. are then seen running down the road one at a time followed by many more following."
+    },
+    {
+      "idx": 57,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. \"Then, the gymnast approaches the pommel horse to spin around many times.\" This option seems most appropriate as it describes an action that a gymnast might do after applying power chalk to his han"
+    },
+    {
+      "idx": 58,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. The gymnast stands on his hands and jumps to land on the floor, while people applaud. (This option best completes the passage as it describes a common move in gymnastics after spinning around the p"
+    },
+    {
+      "idx": 59,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. is pushing a kress of water in a lake while instructing his boarder. (This option best completes the passage as it suggests that the man in the small blue boat presented by Expert Village, likely t"
+    },
+    {
+      "idx": 60,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "None of the options provided directly completes the passage, as they do not discuss hand surfing in a hole or provide hints on how to perform this activity. However, if we were to create an option tha"
+    },
+    {
+      "idx": 61,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. sees the harmonica playing man in the distance."
+    },
+    {
+      "idx": 62,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. watches him and listens to him playing."
+    },
+    {
+      "idx": 63,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. finishes playing and remains seated."
+    },
+    {
+      "idx": 64,
+      "gold": 3,
+      "pred": 2,
+      "correct": false,
+      "raw": "C. puts water on a hose and begins cleaning the windows."
+    },
+    {
+      "idx": 65,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. continues to work by scrubbing the windows and then by pouring water out."
+    },
+    {
+      "idx": 66,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. is reeling in a fish for a long time."
+    },
+    {
+      "idx": 67,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. finally reaches the surface."
+    },
+    {
+      "idx": 68,
+      "gold": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "A. continues to rub water all over his face as well as play with toys and smile at the cameraman. (This option seems most appropriate as it describes the children's actions in a positive, non-offensiv"
+    },
+    {
+      "idx": 69,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. is lifted and the boy begins swinging at the object."
+    },
+    {
+      "idx": 70,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. zooms in on the pinata and then the girl."
+    },
+    {
+      "idx": 71,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. continues to play violin while people pass by her."
+    },
+    {
+      "idx": 72,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. shows how the vegetables are chopped for seasoning and then sprinkled into broth and shown with the water boiling."
+    },
+    {
+      "idx": 73,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. starts mixing the ingredients together. (This option implies that the person is interacting directly with the ingredients on the wooden block.)"
+    },
+    {
+      "idx": 74,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "The passage does not provide enough context to definitively determine the man's actions. However, based on the common association of a pinata with a party game, it is most likely that the man will swi"
+    },
+    {
+      "idx": 75,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. sets the iron aside and flips the clothing."
+    },
+    {
+      "idx": 76,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D. uses the iron on the other side of the clothing."
+    },
+    {
+      "idx": 77,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. sets the iron aside. (This option is the most accurate as it completes the action of setting the iron aside, which was mentioned at the beginning of the passage.)"
+    },
+    {
+      "idx": 78,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. sits down on the chair. (This option implies that the man interacts with the chair and pillow, which were mentioned earlier in the passage.)"
+    },
+    {
+      "idx": 79,
+      "gold": 0,
+      "pred": 1,
+      "correct": false,
+      "raw": "B. then clips the cat nails."
+    },
+    {
+      "idx": 80,
+      "gold": 3,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. sits back down on the chair."
+    },
+    {
+      "idx": 81,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D. begins to incorporate her arms and does a flip and continues to flip the baton over her hands and arms."
+    },
+    {
+      "idx": 82,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. continues her performance, she twirls the baton between her legs and over her head, catches it and does a gallop."
+    },
+    {
+      "idx": 83,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. is a set of twirls and twist and then she runs off the floor to finish her performance."
+    },
+    {
+      "idx": 84,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. cleans the snow under his windshield wipers."
+    },
+    {
+      "idx": 85,
+      "gold": 1,
+      "pred": null,
+      "correct": false,
+      "raw": "None of the options provided completes the passage as they do not describe what happens after or during the man cleaning snow from his car. The passage only describes the action of the man cleaning sn"
+    },
+    {
+      "idx": 86,
+      "gold": 1,
+      "pred": 2,
+      "correct": false,
+      "raw": "C. finishes and slides out of the car."
+    },
+    {
+      "idx": 87,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. drops it on the ground and walks away."
+    },
+    {
+      "idx": 88,
+      "gold": 2,
+      "pred": 2,
+      "correct": true,
+      "raw": "C. throws several more darts while taking the time to speak to the woman."
+    },
+    {
+      "idx": 89,
+      "gold": 2,
+      "pred": 0,
+      "correct": false,
+      "raw": "D. zooms in on the foamy waters as well as the nearby cliffs and forest surrounding it.\n\nThis answer seems to best complete the passage by describing a possible action of the camera, focusing on the b"
+    },
+    {
+      "idx": 90,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "A. is then shown clearly under a large wide wave."
+    },
+    {
+      "idx": 91,
+      "gold": 3,
+      "pred": 1,
+      "correct": false,
+      "raw": "B. stretches in front of it."
+    },
+    {
+      "idx": 92,
+      "gold": 1,
+      "pred": 0,
+      "correct": false,
+      "raw": "The best completion for the passage would be a combination of options A, D, and an additional statement that explains the purpose of the risk protectors and knee pads in skating. Here's a suggested ve"
+    },
+    {
+      "idx": 93,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. turns a dial on the appliance and sets it back down."
+    },
+    {
+      "idx": 94,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. picks the knife back up and places it on the appliance. (This option suggests that the appliance could be a counter, and the action of tilting it upwards and turning a dial might imply adjusting a "
+    },
+    {
+      "idx": 95,
+      "gold": 2,
+      "pred": 1,
+      "correct": false,
+      "raw": "B. uses a tool to pinch the wax off of the knife."
+    },
+    {
+      "idx": 96,
+      "gold": 0,
+      "pred": 0,
+      "correct": true,
+      "raw": "A. slices a tomato on a wood block with the knife."
+    },
+    {
+      "idx": 97,
+      "gold": 3,
+      "pred": 1,
+      "correct": false,
+      "raw": "B. positions the knife front and back and finishes by pushing it straight across the square board. This option seems to be the most logical continuation of the action described, as it follows the act "
+    },
+    {
+      "idx": 98,
+      "gold": 1,
+      "pred": 1,
+      "correct": true,
+      "raw": "B. turn the knife to sharpen the other side and then wipe it with paper towel."
+    },
+    {
+      "idx": 99,
+      "gold": 3,
+      "pred": 3,
+      "correct": true,
+      "raw": "D. continues speaking as more shots are shown of the boy playing basketball."
+    }
+  ]
+}

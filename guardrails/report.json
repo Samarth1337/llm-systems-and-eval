@@ -1,0 +1,81 @@
+[
+  {
+    "check": "determinism",
+    "prompt": "What is the capital of Japan?",
+    "n_runs": 3,
+    "unique_outputs": 1,
+    "passed": true,
+    "outputs": [
+      "The capital of Japan is Tokyo. It's one of the 47 prefectures of Japan and serves as the seat of the national government. Tokyo is a major economic hub and is known for its modern urban development, high technology, and extensive public transportation system.",
+      "The capital of Japan is Tokyo. It's one of the 47 prefectures of Japan and serves as the seat of the national government. Tokyo is a major economic hub and is known for its modern urban development, high technology, and extensive public transportation system.",
+      "The capital of Japan is Tokyo. It's one of the 47 prefectures of Japan and serves as the seat of the national government. Tokyo is a major economic hub and is known for its modern urban development, high technology, and extensive public transportation system."
+    ]
+  },
+  {
+    "check": "determinism",
+    "prompt": "Explain recursion in one sentence.",
+    "n_runs": 3,
+    "unique_outputs": 1,
+    "passed": true,
+    "outputs": [
+      "Recursion is a programming technique where a function solves a problem by solving smaller instances of the same problem, repeatedly calling itself with reduced input until it reaches a base case that can be solved directly.\n\nHere's an example of recursive function definition in Python:\n\n```python\ndef factor",
+      "Recursion is a programming technique where a function solves a problem by solving smaller instances of the same problem, repeatedly calling itself with reduced input until it reaches a base case that can be solved directly.\n\nHere's an example of recursive function definition in Python:\n\n```python\ndef factor",
+      "Recursion is a programming technique where a function solves a problem by solving smaller instances of the same problem, repeatedly calling itself with reduced input until it reaches a base case that can be solved directly.\n\nHere's an example of recursive function definition in Python:\n\n```python\ndef factor"
+    ]
+  },
+  {
+    "check": "determinism",
+    "prompt": "List the first five prime numbers.",
+    "n_runs": 3,
+    "unique_outputs": 1,
+    "passed": true,
+    "outputs": [
+      "The first five prime numbers are:\n\n1. 2 (also known as an even prime)\n2. 3\n3. 5\n4. 7\n5. 11",
+      "The first five prime numbers are:\n\n1. 2 (also known as an even prime)\n2. 3\n3. 5\n4. 7\n5. 11",
+      "The first five prime numbers are:\n\n1. 2 (also known as an even prime)\n2. 3\n3. 5\n4. 7\n5. 11"
+    ]
+  },
+  {
+    "check": "schema_regex",
+    "prompt": "Question: What is 2+2?\nChoices:\n  0. 3\n  1. 4\n  2. 5\n  3. 6\n...",
+    "raw_output": "0",
+    "cleaned": "0",
+    "passed": true
+  },
+  {
+    "check": "schema_regex",
+    "prompt": "Question: Which planet is closest to the Sun?\nChoices:\n  0. ...",
+    "raw_output": "1",
+    "cleaned": "1",
+    "passed": true
+  },
+  {
+    "check": "schema_json",
+    "raw_output": "{\"answer\": 1, \"reasoning\": \"Paris is the capital city of France.\"}",
+    "parsed": {
+      "answer": 1,
+      "reasoning": "Paris is the capital city of France."
+    },
+    "valid": true,
+    "message": "ok",
+    "passed": true
+  },
+  {
+    "check": "stop_sequence",
+    "prompt": "Count from 1 to 20, separated by commas:...",
+    "stop": [
+      ", 10"
+    ],
+    "output": "1, 2, 3, 4, 5, 6, 7, 8, 9",
+    "passed": true
+  },
+  {
+    "check": "stop_sequence",
+    "prompt": "List the days of the week:\n1. Monday\n2. Tuesday\n...",
+    "stop": [
+      "\n4."
+    ],
+    "output": "Sure, here are the remaining days of the week after Monday and Tuesday:\n\n3. Wednesday",
+    "passed": true
+  }
+]

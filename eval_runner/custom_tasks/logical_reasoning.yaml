@@ -1,0 +1,18 @@
+task: logical_reasoning
+dataset_path: json
+dataset_name: null
+dataset_kwargs:
+  data_files:
+    test: D:/Coding/llm-systems-and-evals/eval_runner/custom_tasks/logical_reasoning.json
+test_split: test
+output_type: multiple_choice
+doc_to_text: "Question: {{question}}\nChoices:\n{% for c in choices %}  {{loop.index0}}. {{c}}\n{% endfor %}Answer:"
+doc_to_target: "{{answer}}"
+doc_to_choice: "{{choices}}"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true

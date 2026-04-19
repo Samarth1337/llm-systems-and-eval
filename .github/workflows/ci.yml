@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Compile-check all Python sources
+        run: |
+          python -m compileall -q serve eval_runner perf guardrails improve
+
+      - name: AST parse-check
+        run: |
+          python - <<'PY'
+          import ast, pathlib, sys
+          failed = []
+          for p in pathlib.Path('.').rglob('*.py'):
+              if '.git' in p.parts or '__pycache__' in p.parts:
+                  continue
+              try:
+                  ast.parse(p.read_text(encoding='utf-8'))
+              except SyntaxError as e:
+                  failed.append(f"{p}: {e}")
+          if failed:
+              print("\n".join(failed)); sys.exit(1)
+          print("All Python files parse cleanly.")
+          PY

@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Env / secrets
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated artefacts (regenerable)
+eval_runner/.eval_cache.db
+eval_runner/results/raw_*.json
+eval_runner/results/summary_*.json
+!eval_runner/results/raw_20260301_161035.json
+!eval_runner/results/summary_20260301_161035.json
+
+improve/data/
+improve/predictions/*.json
+!improve/predictions/hellaswag_few_shot.json
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "eval_runner"
+version = "0.1.0"
+description = "Custom Ollama model wrapper for lm-evaluation-harness"
+requires-python = ">=3.10"
+dependencies = [
+    "lm-eval>=0.4.0",
+]
+
+[project.entry-points."lm_eval.models"]
+ollama = "eval_runner.model:OllamaLM"

@@ -1,0 +1,77 @@
+[
+  {
+    "question": "All mammals are warm-blooded. Whales are mammals. Therefore, whales are:",
+    "choices": ["cold-blooded", "warm-blooded", "neither", "it depends"],
+    "answer": 1
+  },
+  {
+    "question": "If it rains, the ground gets wet. The ground is wet. Can we conclude it rained?",
+    "choices": ["Yes, definitely", "No, the ground could be wet for other reasons", "Only if there are no sprinklers", "Not enough information"],
+    "answer": 1
+  },
+  {
+    "question": "No reptiles have fur. All dogs have fur. Therefore:",
+    "choices": ["Some dogs are reptiles", "No dogs are reptiles", "All reptiles are dogs", "Some reptiles have fur"],
+    "answer": 1
+  },
+  {
+    "question": "If A > B and B > C, what is the relationship between A and C?",
+    "choices": ["A < C", "A = C", "A > C", "Cannot be determined"],
+    "answer": 2
+  },
+  {
+    "question": "All squares are rectangles. All rectangles are parallelograms. Therefore, all squares are:",
+    "choices": ["triangles", "circles", "parallelograms", "trapezoids"],
+    "answer": 2
+  },
+  {
+    "question": "A person has 3 red shirts and 5 blue shirts. They pick one at random. What is the probability it is red?",
+    "choices": ["3/5", "5/8", "3/8", "1/2"],
+    "answer": 2
+  },
+  {
+    "question": "If every teacher is a graduate, and some graduates are researchers, can we say some teachers are researchers?",
+    "choices": ["Yes", "No", "Only if all graduates are researchers", "Not necessarily"],
+    "answer": 3
+  },
+  {
+    "question": "What comes next in the sequence: 2, 6, 18, 54, ...?",
+    "choices": ["108", "162", "72", "216"],
+    "answer": 1
+  },
+  {
+    "question": "A clock shows 3:15. What is the angle between the hour and minute hands?",
+    "choices": ["0 degrees", "7.5 degrees", "15 degrees", "90 degrees"],
+    "answer": 1
+  },
+  {
+    "question": "Statement: 'Some cats are black. Some black things are hats.' Conclusion: 'Some cats are hats.' Is this valid?",
+    "choices": ["Valid", "Invalid", "Valid only if all black things are cats", "Cannot be determined"],
+    "answer": 1
+  },
+  {
+    "question": "If you reverse the string 'LEVEL', what do you get?",
+    "choices": ["LEVLE", "LEVEL", "ELVLE", "LEEVL"],
+    "answer": 1
+  },
+  {
+    "question": "A train leaves at 9:00 AM going 60 mph. Another leaves at 10:00 AM going 80 mph on the same route. When does the second catch the first?",
+    "choices": ["12:00 PM", "1:00 PM", "2:00 PM", "They never meet"],
+    "answer": 1
+  },
+  {
+    "question": "In binary, what is 5 + 3?",
+    "choices": ["0111", "1000", "1010", "0110"],
+    "answer": 1
+  },
+  {
+    "question": "Which data structure uses FIFO ordering?",
+    "choices": ["Stack", "Queue", "Binary tree", "Hash map"],
+    "answer": 1
+  },
+  {
+    "question": "What is the time complexity of binary search on a sorted array of n elements?",
+    "choices": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+    "answer": 1
+  }
+]
