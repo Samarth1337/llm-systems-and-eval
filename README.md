@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/hero.svg" alt="LLM Systems & Evals — pipeline overview" width="100%"/>
+  <img src="docs/hero.gif" alt="LLM Systems & Evals — pipeline overview" width="100%"/>
 </p>
 
 # LLM Systems & Evals — Mistral-7b on Ollama
